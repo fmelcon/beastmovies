@@ -30,8 +30,18 @@ header .container{
     align-items: center;
 }
 
+header p{
+    color: var(--font);
+    text-align: center;
+    font-family: monospace;
+}
+
 #header-img{
     max-width: 5em;
+}
+
+.logo{
+    text-align: center;
 }
 
 header nav a {
@@ -42,7 +52,7 @@ header nav a {
 
 header nav a:hover,
 header nav a.active{
-    color: #fff;
+    color: var(--font);
 }
 
 .main-movie{
@@ -77,11 +87,11 @@ header nav a.active{
 }
 
 .main-movie .buttonp{
+    color: #fff;
     background: rgba(0, 0, 0, .5);
     border: none;
     border-radius: 0.31em;
     padding: 0.93em 1.87em;
-    color: #fff;
     margin-left: 1.25em;
     transition: .3 ease all;
     font-size: 1.12em;
@@ -89,13 +99,45 @@ header nav a.active{
 }
 
 .main-movie .buttonp:hover{
-    background: #fff;
+    background: var(--font);
     color: #000;
 }
 
 .main-movie .buttonp i{
     margin-right: 1.25em;
 }
+
+#form{
+
+    align-items: center;
+    color: var(--font);
+    font-family: 'open sans' , sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+#submit{
+    background: var(--font);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.60rem;
+    margin-left: 1.25em;
+    transition: .3 ease all;
+    font-size: 0.40em;
+    cursor: pointer;
+    margin-bottom: 0.425rem;
+}
+
+#email-label{
+    padding-right: 1.25rem;
+}
+
+#email{
+    padding: 0.5rem;
+    margin-bottom: 5em;
+}
+
+
 
 @media screen and (max-width: 768px) {
     #header-img{
@@ -110,14 +152,40 @@ header nav a.active{
     .main-movie .description_movie{
         max-width: 80%;
     }
+
+    .logo{
+        padding-bottom: 0.80em;
+    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+    header nav{
+        font-size: 0.80em;
+    }
+
+    .main-movie .title{
+        font-size: 2.8em;
+    }
+    
+    .main-movie .buttonp {
+        font-size: 0.80em;
+    }
+
+    .logo{
+        padding-bottom: 0.80em;
+    }
+}
+
+@media screen and (max-width: 300px) {
     header nav{
         font-size: 0.80em;
     }
     
     .main-movie .buttonp {
         font-size: 0.80em;
+    }
+
+    .logo{
+        padding-bottom: 0.80em;
     }
 }

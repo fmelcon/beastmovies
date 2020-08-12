@@ -7,6 +7,7 @@
 :root{
     --font: #e50914;
     --background: #141414;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -25,6 +26,10 @@ header .container{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 0.625rem;
+}
+
+#title{
+    color: var(--font);
 }
 
 header p{

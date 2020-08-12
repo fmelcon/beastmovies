@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeastMovies©</title>
+    <title>BeastMovies</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
@@ -11,19 +11,19 @@
 <body>
     <header id="header">
         <div class="container">
-            <div class="logo"><img src="https://imagizer.imageshack.com/img924/8454/OwA4sz.png" alt="best image" id="header-img">
-            <p>Beastmovies</p></div>
+            <div class="logo"><img src="https://imageshack.com/i/poOwA4szp" alt="best image" id="header-img">
+            <h1 id="title">Beastmovies</h1></div>
             <nav id="nav-bar">
-            <a href="#" class="nav-link active">Home</a>
-            <a href="#" class="nav-link">Movies</a>
-            <a href="#" class="nav-link">Series</a>
-            <a href="#" class="nav-link">News</a>
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#home" class="nav-link">Movies</a>
+            <a href="#member" class="nav-link">Prices</a>
+            <a href="#trailer" class="nav-link">Trailers</a>
             <a href="#" class="nav-link">Login</a>
             </nav>
         </div>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="home">
             <div class="container">
                 <h3 class="title">Unlimited movies, TV shows, and <b>MORE</b></h3>
                 <p class="jingle">Watch anywhere. Cancel anytime. Ready to watch?</p>
@@ -36,7 +36,7 @@
             </div>
         </section>
         <div class="divisor"></div>
-        <section class="membership">
+        <section class="membership" id="member">
             <div class="container">
                 <div class="member">
                     <div class="card">
@@ -77,7 +77,7 @@
             </div>
         </section>
         <div class="divisor"></div>
-        <section class="vid_container">
+        <section class="vid_container" id="trailer">
             <iframe id="video" src="https://www.youtube.com/embed/SG_dim5MblE"></iframe>
         </section>
         <div class="divisor"></div>

@@ -218,6 +218,17 @@ ul li{
     padding-top: 56.25%;
 }
 
+.copy{
+    text-align: center;
+    color: rgba(170, 170, 170,.5);
+}
+
+.copy .sign{
+    color: var(--font);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
     .membership .container {
         flex-wrap: wrap;

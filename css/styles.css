@@ -168,6 +168,13 @@ ul li{
     padding: 0.8em;
 }
 
+.member .card .price{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--font);
+}
+
 #join{
     background: var(--font);
     color: #fff;

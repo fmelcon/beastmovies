@@ -59,7 +59,7 @@ header nav a.active{
     text-align: center;
     min-height: 45.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .30)0%, rgba(0, 0, 0, .30) 100%), url(/assets/mlolzwV6VrKOZJ1SfYbPHXXDD4p.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .30)0%, rgba(0, 0, 0, .30) 100%), url(https://imageshack.com/i/pn0nR9aAj);
     background-size: cover;
     margin-bottom: 3.12em;
 }
@@ -130,7 +130,7 @@ b{
 }
 
 .membership{
-    background-image: linear-gradient(rgba(0, 0, 0, .80)0%, rgba(0, 0, 0, .80) 100%), url(/assets/2020-01-Discurso-Tom-Hanks.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .80)0%, rgba(0, 0, 0, .80) 100%), url(https://imagizer.imageshack.com/img924/358/IyHZZ1.jpg);
     background-size: cover;
     background-position: center 500px;
 }

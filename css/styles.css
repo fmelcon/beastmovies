@@ -55,56 +55,40 @@ header nav a.active{
     color: var(--font);
 }
 
-.main-movie{
+.banner {
     font-size: 1em;
-    min-height: 40.62em;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    min-height: 45.62em;
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, .30)0%, rgba(0, 0, 0, .30) 100%), url(/assets/mlolzwV6VrKOZJ1SfYbPHXXDD4p.jpg);
-    background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
-    display: flex;
-    align-items: flex-end;
 }
 
-.main-movie .container{
+.banner .container{
     margin: 0 auto;
-    margin-bottom: 6.25em;
+    background-color: rgba(0, 0, 0, .7);
 }
 
-.main-movie .title{
+b{
+    color: var(--font);
+}
+
+.banner .title{
     font-weight: 600;
     font-size: 3.12em;
     margin-bottom: 0.4em;
 }
 
-.main-movie .description_movie {
+.banner .jingle {
+    margin: 0 auto;
     font-weight: normal;
+    text-align: center;
     font-size: 1em;
     line-height: 1.75em;
-    max-width: 50%;
     margin-bottom: 1.25em;
-}
-
-.main-movie .buttonp{
-    color: #fff;
-    background: rgba(0, 0, 0, .5);
-    border: none;
-    border-radius: 0.31em;
-    padding: 0.93em 1.87em;
-    margin-left: 1.25em;
-    transition: .3 ease all;
-    font-size: 1.12em;
-    cursor: pointer;
-}
-
-.main-movie .buttonp:hover{
-    background: var(--font);
-    color: #000;
-}
-
-.main-movie .buttonp i{
-    margin-right: 1.25em;
 }
 
 #form{
@@ -120,12 +104,17 @@ header nav a.active{
     background: var(--font);
     border: none;
     border-radius: 0.31em;
-    padding: 0.60rem;
+    padding: 0.60rem 1rem 0.60rem 1rem;
     margin-left: 1.25em;
     transition: .3 ease all;
     font-size: 0.40em;
     cursor: pointer;
     margin-bottom: 0.425rem;
+}
+
+#submit:hover{
+    background: var(--background);
+    color: var(--font);
 }
 
 #email-label{
@@ -149,7 +138,7 @@ header nav a.active{
         text-align: center;
     }
 
-    .main-movie .description_movie{
+    .banner .jingle{
         max-width: 80%;
     }
 
@@ -163,12 +152,8 @@ header nav a.active{
         font-size: 0.80em;
     }
 
-    .main-movie .title{
+    .banner .title{
         font-size: 2.8em;
-    }
-    
-    .main-movie .buttonp {
-        font-size: 0.80em;
     }
 
     .logo{
@@ -178,10 +163,6 @@ header nav a.active{
 
 @media screen and (max-width: 300px) {
     header nav{
-        font-size: 0.80em;
-    }
-    
-    .main-movie .buttonp {
         font-size: 0.80em;
     }
 

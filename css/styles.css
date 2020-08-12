@@ -59,7 +59,7 @@ header nav a.active{
     font-size: 1em;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .30)0%, rgba(0, 0, 0, .30) 100%), url(/assets/mlolzwV6VrKOZJ1SfYbPHXXDD4p.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .30)0%, rgba(0, 0, 0, .30) 100%), url(./assets/mlolzwV6VrKOZJ1SfYbPHXXDD4p.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -170,6 +170,7 @@ header nav a.active{
     .main-movie .buttonp {
         font-size: 0.80em;
     }
+<<<<<<< HEAD
 
     .logo{
         padding-bottom: 0.80em;
@@ -189,3 +190,6 @@ header nav a.active{
         padding-bottom: 0.80em;
     }
 }
+=======
+}
+>>>>>>> d57e1cdda3aa0759e5fa0cc90cffc4a90b5fc9d2

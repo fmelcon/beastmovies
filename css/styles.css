@@ -281,11 +281,19 @@ ul li{
     .logo{
         padding-bottom: 0.80em;
     }
+
+    #submit{
+        padding: 1.2rem 2.7em
+    }
 }
 
 @media screen and (max-width: 300px) {
     header nav{
         font-size: 0.80em;
+    }
+
+    #submit{
+        padding: 1.2rem 2.7em
     }
 
     .logo{
